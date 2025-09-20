@@ -7,7 +7,7 @@ try:
     print(f"The quotient is:", quotient)
     print(f"The quotient retrieved is, {quotient}.")
 except ValueError:
-    print("We have an error in the user input. Please enter a valid Number > 0")
+    print(f"We have an error in the user input. Please enter a valid Number > 0")
 
 except ZeroDivisionError:
-    print("We have an error in the user input. Please enter a Non-Zero Denominator")
+    print(f"We have an error in the user input. Please enter a Non-Zero Denominator")
