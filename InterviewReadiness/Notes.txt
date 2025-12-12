@@ -1,0 +1,9 @@
+CPython choses both Compilation and Interpretation depending on the stage of the execution process
+
+Compilation: When you write Python code and run it -->
+1. The source code (.py) file is first compiled into an intermediate form called bytecode (.pyc file)
+2. The bytecode is lower representation but still not a machine code
+Interpretation: After Python code is compiled into bytecode, it is executed by Python Virtual Machine (PVM) which is an interpreter.
+1. The PVM read the bytecode and executes it line-by-line at runtime
+
+Thus Python is considered as an Interpreted Language

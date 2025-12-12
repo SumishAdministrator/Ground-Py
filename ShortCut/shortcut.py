@@ -13,5 +13,3 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers_slicing = numbers[1:4:1]
 reversed_number = numbers[9:7:-1]
 
-print(f"Number_Slicing",numbers_slicing)
-print(f"reversed_number",reversed_number)
