@@ -22,3 +22,10 @@ for entry in d:
     #print(f"Name is", name)
     if name:
         print(name)
+
+
+food = []
+food_input = input ("Please enter a food name")
+if food_input == "quit":
+    break
+food.append(food_input)
