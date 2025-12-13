@@ -24,8 +24,18 @@ for entry in d:
         print(name)
 
 
-food = []
-food_input = input ("Please enter a food name")
-if food_input == "quit":
-    break
-food.append(food_input)
+fruit = []
+while True:
+    print(f'\nThis is without Walrus Ops')
+    fruit_input = input ("Please enter a fruit name: ")
+    if fruit_input == "Quit":
+        break
+    fruit.append(fruit_input)
+    print(fruit)
+
+
+veg_walrus = []
+print(f'\nThis is with Walrus Ops')
+while (veg_input := input("\nPlease enter a veg name: ") ) != "Quit":
+    veg_walrus.append(veg_input)
+    print(veg_walrus)
